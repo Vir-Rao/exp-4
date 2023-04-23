@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile System</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- https://ionic.io/ionicons/usage  --> 
+    <!-- ionic is a site from where we can use icons easily, we have used icons in our buttons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<style>
+
+/* css to increase the size of icons we used in our buttons */
+ion-icon {
+  font-size: 22px;
+}
+
+.card{
+    width: 300px;
+   height:370px; 
+   margin-top:120px;
+}
+</style>
+
+</head>
+<body>
+
+    <!-- Navbar code -->
+    <nav class="navbar navbar-light bg-light">
+        <img src=" logo.png" width="200" height="80" class="d-inline-block align-top" alt="">
+        <center><h1><b>STUDENT PROFILE SYSTEM</b></h1></center>
+        
+        <div class="d-flex justify-content-end">
+        
+            <a href="login.html" class="btn btn-outline-danger" style="margin-right:40px; border:0px;">LOGIN</a>
+            <a href="signup.html" class="btn btn-outline-danger" style="margin-right:40px; border:0px;">SIGN UP </a>
+            <a href="aboutus.html"class="btn btn-outline-danger" style="border:0px;">CONATCT US</a>
+
+        </div>
+    </nav>
+
+
+<div class="container ">
+
+    <div class="row ">
+
+      <!------------- Column 1 --------->
+      <div class="col">
+        <div class="card" >
+          <img src="user.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <center><h5 class="card-title" style="margin-top:35px;">SIGN UP</h5></center>
+              <p class="card-text"></p>
+              <center><a href="signup.html" class="btn btn-primary" style="width: 80px;">
+
+                <!-- https://ionic.io/ionicons -->
+                <ion-icon name="person-add-outline"></ion-icon> 
+
+              </a></center>
+            </div>
+          </div>
+      </div>
+
+
+      <!------------- Column 2 --------->
+      <div class="col">
+        <div class="card" >
+          <img src="password.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <center><h5 class="card-title" style="margin-top:28px;">LOGIN</h5></center>
+              <p class="card-text"></p>
+              <center><a href="login.html" class="btn btn-primary" style="width: 80px;">
+ 
+                  <!-- https://ionic.io/ionicons -->
+                <ion-icon name="log-in"></ion-icon> 
+                
+              </a></center> 
+            </div>
+          </div>
+      </div>
+
+
+
+      <!------------- Column 3 --------->
+      <div class="col">
+        <div class="card">
+          <img src="contact.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <center><h5 class="card-title" style="margin-top:7px;">CONTACT US</h5></center>
+              <p class="card-text"></p>
+              <center><a href="aboutus.html" class="btn btn-primary" style="width: 80px;">
+
+                <!-- https://ionic.io/ionicons -->
+                <ion-icon name="call-outline"></ion-icon> 
+
+              </a></center>
+            </div>
+         </div>
+      </div>
+
+    </div>
+
+  </div>
+    
+  <!-- https://getbootstrap.com/docs/4.0/components/navbar/#placement -->
+  <nav class="navbar fixed-bottom navbar-light bg-dark" style="height:80px;">
+    <span class="text-muted"><em>Designed & developed by Aishwarya Anand</em></span>
+  </nav>
+ 
+ 
+
+</body>
+</html>
